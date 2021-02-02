@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(155, 216, 201);
+    background-size: height="300px" weight="500px";
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(o, 100, 0);
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15;
+}
+.menu-bar ul li{
+    text-decoration: none;
+    color:#fff
+}
+.active, .menu-bar ul li:hover{
+    background: #7946b4;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.search-form{
+    margin-top: 15px;
+    float: right;
+    margin-right: 90px;
+}
+input[type=text]{
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+button{
+    float: center;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+
+}
+.container{
+    background-color: aqua;
+
+}
+.first{
+    background-color: bisque;
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+}
+.first :hover{
+    background-color: red;
+}
+.second :hover{
+    background-color: snow;
+}
+.first :hover + .second{
+    background-color: rgb(203, 214, 49);
+}
+.second{
+    background-color: cadetblue;
+    background-size: 150px, 300px;
+    position: sticky;
+    padding: 10px;
+    margin: 15px;
+    height: 150px;
+    width: 300px;
+
+}
+.third{
+    background-color: darkviolet;
+    position: center;
+    padding: 10px;
+    margin: 15px;
+}
+.over-flow{
+    background-color: springgreen;
+    padding: 10;
+    margin: 15;
+}
+.box{
+    height: 150px;
+    width: 250;
+    border: 2px solid yellow;
+    overflow: scroll;
+}
+.box-two{
+    height: 10px;
+    width: 20;
+    border: 2px solid rgb(53, 34, 160);
+    overflow: auto;
+}
+.image{
+    height: 300px;
+    width: 500px;
+}
